@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263228026074",
+    "project_id": "christian-songs-8bdd0",
+    "storage_bucket": "christian-songs-8bdd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263228026074:android:c826e6023442022b8a89e3",
+        "android_client_info": {
+          "package_name": "com.example.maoso3a_taranim_arabia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263228026074-lgplkmopl3efbjs18nitjenhs88abokh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maoso3a_taranim_arabia",
+            "certificate_hash": "d8ba8fa6d8b4f1d50feacc126af15d7f3d2d885e"
+          }
+        },
+        {
+          "client_id": "263228026074-ls324l578o5ve19qutoam9721g481fbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB87HXHYHHcukrIctdbpItxK5d6wLalSrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263228026074-ls324l578o5ve19qutoam9721g481fbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>263228026074-iccs2u8c1vgmbovusfb57mloco42ausp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.263228026074-iccs2u8c1vgmbovusfb57mloco42ausp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>263228026074-lgplkmopl3efbjs18nitjenhs88abokh.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA6d2KhTWGx4gzbgn9siVcd9Q6XDY7Ne_Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>263228026074</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.maoso3aTaranimArabia</string>
+	<key>PROJECT_ID</key>
+	<string>christian-songs-8bdd0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>christian-songs-8bdd0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:263228026074:ios:047b8394e23cac3c8a89e3</string>
+</dict>
+</plist>
