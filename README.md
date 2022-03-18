@@ -1,6 +1,6 @@
 # maoso3a_taranim_arabia
 
-A new Flutter project.
+A new Flutter project. songs lyrics presentation with cords for all ages.
 
 ## Getting Started
 
