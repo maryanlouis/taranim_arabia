@@ -29,9 +29,9 @@ class DataController extends GetxController{
     print('test');
     final List<Map<String, Object?>> SongsResult = await db.rawQuery(''' SELECT Songs.SongID, Songs.CategoryId, Songs.SongName FROM Songs inner join Verses ON Songs.SongID = Verses.songId  WHERE 
     replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
-    replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(Verses.Text, "\u1d2c", ""),"\u1d2e", ""),"\u1d9c", ""),"\u1d30", ""),"\u1d31", "")
-    ,"\u1da0", ""),"\u1d33", ""),"\u1d50", ""),"\u1d47", ""),"\ufe5f", ""),"\u2087", ""),"\u209b", ""),"\u1d64", ""),"\u2084", ""),"\u1d48", ""),"\u2071", ""), "\u1d43",""),"\u02b2",""),"/", "\n" ),"-", "" )
-    ,"ّ",""),"َ",""),"ً",""),"ُ",""),"ٌ",""),"ِ",""),"ٍ",""),"ْ","") LIKE "%$q%" AND Songs.isdeleted = false AND Verses.isdeleted = false group by Songs.SongID''');
+    replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(Verses.Text, "\u1d2c",""),"\u1d2e",""),"\u1d9c",""),"\u1d30",""),"\u1d31","")
+    ,"\u1da0",""),"\u1d33",""),"\u1d50",""),"\u1d47",""),"\ufe5f",""),"\u2087",""),"\u209b",""),"\u1d64",""),"\u2084",""),"\u1d48",""),"\u2071", ""), "\u1d43",""),"\u02b2",""),"/", "\n" ),"-","")
+    ,"ّ",""),"َ",""),"ً",""),"ُ",""),"ٌ",""),"ِ",""),"ٍ",""),"ْ","") LIKE "%$q%" AND Songs.isdeleted = 0 AND Verses.isdeleted = 0 group by Songs.SongID''');
     return SongsResult.map((e) => mysearch.fromMap(e)).toList();
   }
 }

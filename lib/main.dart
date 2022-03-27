@@ -25,7 +25,7 @@ import 'package:sqflite_common/sqlite_api.dart';
 //fbDatabase.NotesDatabase noteDatabase ;
 
 Future main() async{
-  WidgetsFlutterBinding.ensureInitialized();
+  await WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
   // platformInit();
@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
   //_HomePageState();
   /*final FirebaseApp app;
   final FirebaseDatabase database;*/
-  String _username = "";
+  //String _username = "";
 
   //List vedios;
   //List categoriesTitle = new List();

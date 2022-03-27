@@ -35,8 +35,15 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "263228026074-ls324l578o5ve19qutoam9721g481fbn.apps.googleusercontent.com",
+              "client_id": "263228026074-3u5q7u6g41pc7huolt5hsud7av704vch.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "263228026074-iccs2u8c1vgmbovusfb57mloco42ausp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.maoso3aTaranimArabia"
+              }
             }
           ]
         }

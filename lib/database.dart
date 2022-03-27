@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:core';
-import 'dart:core';
 //import 'dart:html';
 import 'dart:io';
 //import 'package:firebase_database/firebase_database.dart';
@@ -180,6 +179,7 @@ class NotesDatabase{
     if(_database != null){
       return _database!;
     }
+
     _database = await initializeDB();
     return _database!;
   }
